@@ -1,0 +1,17 @@
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\bin\Debug\CustomContextMenuCodeBehind.exe.config
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.csprojResolveAssemblyReference.cache
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\MainWindow.g.cs
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\App.g.cs
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind_MarkupCompile.cache
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind_MarkupCompile.lref
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.exe
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.pdb
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\bin\Debug\CustomContextMenuCodeBehind.exe
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\bin\Debug\CustomContextMenuCodeBehind.pdb
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\MainWindow.baml
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.g.resources
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.Properties.Resources.resources
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomContextMenuCodeBehind.csproj.GenerateResource.Cache
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomControl\CustomListBox.g.cs
+C:\Users\RenewedVision\Documents\Visual Studio 2015\Projects\SampleProject\WPF\CustomContextMenuCodeBehind\CustomContextMenuCodeBehind\obj\Debug\CustomControl\CustomListBox.baml

@@ -1,0 +1,28 @@
+﻿<ListBox x:Class="CustomContextMenuCodeBehind.CustomControl.CustomListBox"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:local="clr-namespace:CustomContextMenuCodeBehind.CustomControl"
+         SelectionMode="Single">
+    <ListBox.ItemContainerStyle>
+        <Style TargetType="{x:Type ListBoxItem}">
+            <Setter Property="ContextMenu">
+                <Setter.Value>
+                    <ContextMenu>
+                        <MenuItem Header="Rename" />
+                        <MenuItem Header="Delete" />
+                    </ContextMenu>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ListBox.ItemContainerStyle>
+    <ListBox.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="{Binding Name}" />
+                    <TextBlock Text="{Binding Resolution}" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </ListBox.ItemTemplate>
+</ListBox>
