@@ -13,10 +13,10 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <customControl:AudienceListBox Grid.Row="0"
-                                       Screens="{Binding AudienceScreenCollection}"
+                                       ItemsSource="{Binding AudienceScreenCollection}"
                                        SelectedScreen="{Binding SelectedScreen}" />
         <customControl:StageListBox Grid.Row="1"
-                                    Screens="{Binding StageScreenCollection}"
+                                    ItemsSource="{Binding StageScreenCollection}"
                                     SelectedScreen="{Binding SelectedScreen}" />
     </Grid>
 </Window>
