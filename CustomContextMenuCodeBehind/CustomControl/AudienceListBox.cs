@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
+using System.Windows.Data;
 using CustomContextMenuCodeBehind.Item;
 
 namespace CustomContextMenuCodeBehind.CustomControl
@@ -30,24 +30,16 @@ namespace CustomContextMenuCodeBehind.CustomControl
         {
             ((AudienceListBox)callerObject).ResetSelection(e.NewValue as ScreenInfo);
         }
-
         #endregion
 
         #region CTOR
         public AudienceListBox()
         {
+            SetBinding(SelectedItemProperty, new Binding(nameof(SelectedScreen)) { Source = this });
         }
         #endregion
 
         #region Methods
-        protected override void OnSelectionChanged(SelectionChangedEventArgs e)
-        {
-            if (e.AddedItems != null && e.AddedItems.Count > 0)
-                SelectedScreen = e.AddedItems[0] as ScreenInfo;
-
-            base.OnSelectionChanged(e);
-        }
-
         private void ResetSelection(ScreenInfo screenInfo)
         {
             if (Items != null && !Items.Contains(screenInfo))

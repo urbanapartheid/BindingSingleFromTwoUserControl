@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
+using System.Windows.Data;
 using CustomContextMenuCodeBehind.Item;
 
 namespace CustomContextMenuCodeBehind.CustomControl
@@ -35,19 +35,11 @@ namespace CustomContextMenuCodeBehind.CustomControl
         #region CTOR
         public StageListBox()
         {
-
+            SetBinding(SelectedItemProperty, new Binding(nameof(SelectedScreen)) { Source = this });
         }
         #endregion
 
         #region Methods
-        protected override void OnSelectionChanged(SelectionChangedEventArgs e)
-        {
-            if (e.AddedItems != null && e.AddedItems.Count > 0)
-                SelectedScreen = e.AddedItems[0] as ScreenInfo;
-
-            base.OnSelectionChanged(e);
-        }
-
         private void ResetSelection(ScreenInfo screenInfo)
         {
             if (Items != null && !Items.Contains(screenInfo))
